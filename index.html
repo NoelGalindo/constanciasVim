@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Constancia</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <button class="btn" onclick="descargarImg()">Descargar</button>
+    <button class="btn" onclick="generarQr()">Generar Qr</button>
+    <section style="display: none;" id="capture" class="img-background">
+        <div class="text-box">
+            <p class="text">a Noel Maximiliano Galindo Ortiz</p>
+        </div>
+        <div id="qrcode" class="qrCodeArea">
+            
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Script Qrcode -->
+    <script type="text/javascript" src="jquery.min.js"> </script>
+    <script type="text/javascript" src="qrcode.js"> </script>
+
+    <script src="main.js"></script>
+</body>
+</html>

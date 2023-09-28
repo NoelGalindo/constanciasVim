@@ -1,0 +1,55 @@
+body{
+    width: 1586px;
+    height: 1224px;  
+}
+
+.img-background{
+    background-image: url("https://wallpaperaccess.com/full/2816427.jpg");
+    background-repeat: no-repeat;
+    width: 1586px;
+    height: 1224px;  
+}
+
+.text-box{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 430px;
+    left: 490px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+}
+
+.text{
+    font-size: 70px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.btn{
+    background-color: blue;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.qrCodeArea{
+    position: relative;
+    top: 624px;
+    left: 61px;
+    display: flex;
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+  
+    
+
+
